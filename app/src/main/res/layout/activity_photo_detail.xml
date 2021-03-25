@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/black">
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:id="@+id/image_app"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_app"
+            android:background="@color/black"
+            android:scaleType="fitCenter"
+            tools:srcCompat="@drawable/calculator_app" />
+
+
+        <TextView
+            android:id="@+id/title_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/black"
+            android:text="@string/resume_title"
+            android:textAlignment="center"
+            android:textColor="@color/color_line"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

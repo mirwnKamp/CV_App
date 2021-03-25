@@ -1,0 +1,54 @@
+<resources xmlns:https="http://schemas.android.com/apk/res/android">
+
+    <!-- App Strings -->
+    <string name="app_name">Resume App</string>
+    <string name="home_button">Home</string>
+    <string name="studies_button">Studies</string>
+    <string name="portfolio_button">Portfolio</string>
+
+    <!-- Home Strings -->
+    <string name="name">Myronas\nKampourakis</string>
+    <string name="job_name">Junior Android Developer</string>
+    <string name="birth">27 April 1992</string>
+    <string name="email">kampourakis.murwn@gmail.com</string>
+    <string name="phone">6949744770</string>
+    <string name="location">Athens 15344, Gerakas</string>
+    <string name="linkedin">linkedin.com/in/myronas-kampourakis-838768177</string>
+    <string name="github">github.com/mirwnKamp</string>
+    <string name="profile">Profile</string>
+    <string name="profile_desc">Passionate, ambitious and curious about everything.
+        \nEager to embark on my journey into the software world, developing new skills and experience the joy of delivering high-quality services.
+        \nLogical and analytical thinking, with the ability to provide solutions by splitting and solving one task at a time.
+        \nExcited to meet new people and participate in group projects. </string>
+    <string name="soft_skills"> Soft-Skills</string>
+    <string name="soft_skills_desc">⦁ Communication and Team Working
+                                  \n⦁ Critical Thinking
+                                  \n⦁ Self-motivated
+                                  \n⦁ Planning \ Organising
+                                  \n⦁ Accuracy and attention to detail
+                                  \n⦁ Problem Solving
+                                  \n⦁ Adaptability</string>
+    <string name="lang_skills"> Language Skills</string>
+    <string name="lang_skills_desc"> Greek - Native Speaker
+                                  \nEnglish - Fluent</string>
+    <string name="tech_skills"> Technical Skills</string>
+    <string name="tech_skills_desc"> Programming: \n⦁ Kotlin \n⦁ C++ \n⦁ Matlab \n⦁ AutoCad
+                                \n\nMicrosoft Office: \n⦁ Word \n⦁ Excel \n⦁ PowerPoint \n⦁ Access</string>
+
+    <!-- Studies Strings -->
+    <string name="college"> 2012 – 2017 Bachelor Decree in Electrical Engineering, T.E.I of Crete</string>
+    <string name="college_desc">⦁ Preparation of technical / financial studies and implementation studies, technical support and maintenance, design, development and production of products and services related to the above mentioned sectors.
+                              \n⦁ Application of standards,rules and regulations in the study and design of installations, systems and products as well as in the operation of electrical systems.
+                              \n⦁ Design / implementation of applied and technological research and development programs related to the aforementioned areas. Study, design and development of prototype electrical electronic systems.
+                              \n⦁ Didactics of the Department\'s cognitive subjects.
+                              \n⦁   Security of the production process.</string>
+    <string name="courses"> Online Courses</string>
+    <string name="courses_cert"> 6/3/2021  \n ⦁ Android App Development Masterclass using Kotlin from Udemy.\n udemy.com/certificate/UC-b9510cc2-dc31-4aba-a152-f36f965112b0 </string>
+
+    <!-- Portfolio Strings -->
+    <string name="resume_title">Calculator</string>
+    <string name="resume_Description">A basic calculator app</string>
+    <string name="tasktimer_title">Task Timer</string>
+    <string name="tasktimer_desc">App for adding tasks and keeping track of the time spent until completion</string>
+
+</resources>

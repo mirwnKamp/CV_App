@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mironk.resumeapp.MainActivity">
+    <item
+        android:id="@+id/FirstFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home_button" />
+    <item
+        android:id="@+id/SecondFragment"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="@string/studies_button" />
+    <item
+        android:id="@+id/PortfolioFragment"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="@string/portfolio_button"/>
+</menu>
