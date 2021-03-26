@@ -7,16 +7,25 @@
     android:background="@color/black"
     tools:context=".HomeFragment">
 
-    <ImageView
-        android:id="@+id/photo_me"
+    <androidx.cardview.widget.CardView
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        app:cardCornerRadius="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/photo_of_me"
-        tools:src="@drawable/ic_launcher_foreground" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/photo_me"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@color/black"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/cv_photo"
+            tools:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/todo" />
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/name"
@@ -62,10 +71,12 @@
         android:layout_height="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="41dp"
+        app:tint="@color/color_line"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/job"
-        app:srcCompat="@drawable/ic_baseline_calendar_today_24" />
+        app:srcCompat="@drawable/calendar"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/email"
@@ -85,10 +96,12 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
+        app:tint="@color/color_line"
         app:layout_constraintEnd_toEndOf="@+id/image_birth"
         app:layout_constraintStart_toStartOf="@+id/image_birth"
         app:layout_constraintTop_toBottomOf="@+id/image_birth"
-        app:srcCompat="@drawable/ic_baseline_email_24" />
+        app:srcCompat="@drawable/mail"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/phone"
@@ -109,11 +122,13 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
+        app:tint="@color/color_line"
         app:layout_constraintEnd_toEndOf="@+id/image_email"
         app:layout_constraintStart_toStartOf="@+id/image_email"
         app:layout_constraintTop_toBottomOf="@+id/image_email"
-        app:srcCompat="@drawable/ic_baseline_phone_android_24"
-        tools:src="@tools:sample/avatars" />
+        app:srcCompat="@drawable/mobile"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/location"
@@ -133,11 +148,13 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
+        app:tint="@color/color_line"
         app:layout_constraintEnd_toEndOf="@+id/image_phone"
         app:layout_constraintStart_toStartOf="@+id/image_phone"
         app:layout_constraintTop_toBottomOf="@+id/image_phone"
-        app:srcCompat="@drawable/ic_baseline_location_on_24"
-        tools:src="@tools:sample/avatars" />
+        app:srcCompat="@drawable/location"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/linkedin"
@@ -156,11 +173,12 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
-        android:src="@mipmap/linkedin_foreground"
         app:layout_constraintEnd_toEndOf="@+id/image_location"
         app:layout_constraintStart_toStartOf="@+id/image_location"
         app:layout_constraintTop_toBottomOf="@+id/image_location"
-        app:tint="@color/color_line" />
+        app:srcCompat="@drawable/linked_in"
+        app:tint="@color/color_line"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/gihub"
@@ -179,10 +197,12 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginTop="8dp"
+        app:tint="@color/color_line"
         app:layout_constraintEnd_toEndOf="@+id/image_linkedin"
         app:layout_constraintStart_toStartOf="@+id/image_linkedin"
         app:layout_constraintTop_toBottomOf="@+id/image_linkedin"
-        app:srcCompat="@mipmap/git_foreground" />
+        app:srcCompat="@drawable/github"
+        android:contentDescription="@string/todo" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/home_recyclerView"

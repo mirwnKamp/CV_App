@@ -1,4 +1,4 @@
-<resources xmlns:https="http://schemas.android.com/apk/res/android">
+<resources >
 
     <!-- App Strings -->
     <string name="app_name">Resume App</string>
@@ -43,12 +43,14 @@
                               \n⦁ Didactics of the Department\'s cognitive subjects.
                               \n⦁   Security of the production process.</string>
     <string name="courses"> Online Courses</string>
-    <string name="courses_cert"> 6/3/2021  \n ⦁ Android App Development Masterclass using Kotlin from Udemy.\n udemy.com/certificate/UC-b9510cc2-dc31-4aba-a152-f36f965112b0 </string>
+    <string name="courses_cert"> 6/3/2021\n ⦁Android App Development Masterclass using Kotlin from Udemy.\n udemy.com/certificate/UC–b9510cc2–dc31–4aba-a152-f36f965112b0</string>
 
     <!-- Portfolio Strings -->
     <string name="resume_title">Calculator</string>
     <string name="resume_Description">A basic calculator app</string>
     <string name="tasktimer_title">Task Timer</string>
     <string name="tasktimer_desc">App for adding tasks and keeping track of the time spent until completion</string>
+    <string name="todo">TODO</string>
+
 
 </resources>
